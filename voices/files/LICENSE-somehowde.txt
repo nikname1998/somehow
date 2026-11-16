@@ -1,0 +1,7 @@
+somehowde, the German read-aloud voice of the game "somehow".
+
+To the extent possible under law, the authors have waived all copyright and related or neighboring rights to these
+model weights: Creative Commons CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/
+
+Trained on Thorsten-Voice data by Thorsten Mueller (https://www.thorsten-voice.de), CC0 1.0. Credit as a courtesy;
+this is not an official Thorsten-Voice model. The speech it makes is computer-generated (synthetic).

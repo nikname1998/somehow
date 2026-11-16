@@ -1,0 +1,12 @@
+Kokoro-82M v1.0 by hexgrad (https://huggingface.co/hexgrad/Kokoro-82M), Apache License 2.0.
+ONNX export (int8, kokoro-int8-multi-lang-v1_0) by the sherpa-onnx project (https://github.com/k2-fsa/sherpa-onnx), Apache License 2.0.
+Changed for the game "somehow": only the voices "bm_lewis" (English) and "em_santa" (Spanish) are kept, their style
+tables are stored in kokoro-styles.0.txt; the model is compressed with gzip, encoded as base64 and cut into the
+parts kokoro.N.txt. Join the parts, decode base64 and gunzip to get model.int8.onnx back unchanged.
+Kokoro was trained on permissively licensed data, partly CC BY: SIWIS (CC BY 4.0) and Koniwa (CC BY 3.0).
+All read-aloud speech made with these files is computer-generated (synthetic), not a recording of a real person.
+ONNX Runtime Web: see LICENSE-onnxruntime.txt (MIT).
+
+somehowde (German, files somehowde.N-*.txt): our own Piper VITS voice, trained from scratch (no pretrained or
+third-party checkpoint) for the game "somehow" on the Thorsten-Voice dataset by Thorsten Mueller (CC0 1.0).
+Model weights: CC0 1.0, see LICENSE-somehowde.txt. Stored the same way (gzip, base64, parts).
